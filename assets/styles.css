@@ -1,0 +1,14 @@
+/* 自定义 CSS 样式块 */
+body {
+    /* 设定深色背景，使用 Tailwind 默认不提供的更深色调 (#0f1117)，增强专业感 */
+    background-color: #0f1117;
+}
+/* 针对响应区域的滚动条进行美化，使界面更精致 */
+.scroll-area::-webkit-scrollbar {
+    width: 8px; /* 设置滚动条宽度 */
+}
+.scroll-area::-webkit-scrollbar-thumb {
+    /* 设置滚动条颜色 */
+    background: #4b5563; 
+    border-radius: 6px; /* 滚动条圆角 */
+}
